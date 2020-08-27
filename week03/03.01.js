@@ -273,6 +273,12 @@ console.log(testObj[1]); // you have to use square brackets to grab the key that
 
 
 
+
+
+
+
+// FIRST CHALLENGE IN REPL.IT
+
 function count(i) {
     console.log(i); 
      if (i % 2 === 0) {
@@ -282,9 +288,13 @@ function count(i) {
   }}
   
   for (let i=0; i<=10; i++) {
-    count(i); 
+    count2(i); 
   }
   
 // if/else statement into a ternary
 
+function count2(i) {
+    console.log(i); 
+    (i % 2 === 0) ? console.log('the number is even') : console.log('the number is odd') 
+}
 
